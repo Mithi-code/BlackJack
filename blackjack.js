@@ -26,7 +26,7 @@ function buildDeck() {
             deck.push(values[j] + "-" + types[i]); //A-C -> K-C, A-D -> K-D
         }
     }
-    // console.log(deck);
+     console.log(deck);
 }
 
 function shuffleDeck() {
@@ -146,4 +146,3 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum;
 }
-
